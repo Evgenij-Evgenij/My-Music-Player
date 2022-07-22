@@ -15,6 +15,7 @@
 		7363AD07288B458E002D7416 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7363AD06288B458E002D7416 /* Album.swift */; };
 		7363AD09288B45D0002D7416 /* PlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7363AD08288B45D0002D7416 /* PlayerManager.swift */; };
 		7363AD0B288B4632002D7416 /* TrackListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7363AD0A288B4632002D7416 /* TrackListView.swift */; };
+		7363AD0D288B4698002D7416 /* kuzma_skrjabin_-_ljudi__jak_korabli_(z2.fm).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7363AD0C288B4698002D7416 /* kuzma_skrjabin_-_ljudi__jak_korabli_(z2.fm).mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		7363AD06288B458E002D7416 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
 		7363AD08288B45D0002D7416 /* PlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerManager.swift; sourceTree = "<group>"; };
 		7363AD0A288B4632002D7416 /* TrackListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListView.swift; sourceTree = "<group>"; };
+		7363AD0C288B4698002D7416 /* kuzma_skrjabin_-_ljudi__jak_korabli_(z2.fm).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "kuzma_skrjabin_-_ljudi__jak_korabli_(z2.fm).mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				7363AD0A288B4632002D7416 /* TrackListView.swift */,
 				7363AD06288B458E002D7416 /* Album.swift */,
 				7363AD08288B45D0002D7416 /* PlayerManager.swift */,
+				7363AD0C288B4698002D7416 /* kuzma_skrjabin_-_ljudi__jak_korabli_(z2.fm).mp3 */,
 				7363ACFA288B443A002D7416 /* Assets.xcassets */,
 				7363ACFC288B443A002D7416 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7363AD0D288B4698002D7416 /* kuzma_skrjabin_-_ljudi__jak_korabli_(z2.fm).mp3 in Resources */,
 				7363ACFE288B443A002D7416 /* Preview Assets.xcassets in Resources */,
 				7363ACFB288B443A002D7416 /* Assets.xcassets in Resources */,
 			);

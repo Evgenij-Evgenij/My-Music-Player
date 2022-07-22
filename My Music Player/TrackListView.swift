@@ -28,20 +28,6 @@ struct TrackListView: View {
                         } else {
                             viewModel.pause(song: song)
                         }
-                        
-//                        if viewModel == nil {
-//                            viewModel.play(song: song)
-//                        } else {
-//                            viewModel.player?.play()
-//                        }
-//                        playPausButton.toggle()
-//                        if playPausButton == true {
-//                            viewModel.play(song: song)
-//                        } else {
-//                            viewModel.pause(song: song)
-//                        }
-
-                        
             
                     } label: {
                        Image(systemName:

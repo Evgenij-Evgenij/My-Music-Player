@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Album: Identifiable, Hashable {
     var id = UUID()
-    var  name: String
+    var name: String
     var image: String
     var songs: [Song]
     

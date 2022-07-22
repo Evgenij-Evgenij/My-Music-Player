@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import AVFoundation
 
 struct TrackListView: View {
     var album: Album
@@ -28,16 +27,16 @@ struct TrackListView: View {
                         } else {
                             viewModel.pause(song: song)
                         }
-            
+                        
                     } label: {
-                       Image(systemName:
+                        Image(systemName:
                                 playPausButton ? "play.circle" : "pause.circle")
-                            .resizable()
-                            .scaledToFit()
-                            .frame(width: UIScreen.main.bounds.height * 0.05, height: UIScreen.main.bounds.height * 0.05)
-                            
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: UIScreen.main.bounds.height * 0.05, height: UIScreen.main.bounds.height * 0.05)
+                        
                     }
-
+                    
                     
                     Image(song.image)
                         .resizable()
@@ -69,19 +68,17 @@ final class TrackListViewModel: ObservableObject {
     
     private let playerManager = PlayerManager.shared
     
-//    var player: AVPlayer?
-    
-    func playPaus( song: Album.Song) {
+    func playPause(song: Album.Song) {
         if playerManager.isPlayingNow == true {
-            playerManager.play(song: song)
+            playerManager.choose(song: song)
         } else {
             playerManager.pause()
         }
     }
     
     func play(song: Album.Song) {
-            playerManager.play(song: song)
-     }
+        playerManager.choose(song: song)
+    }
     
     func pause(song: Album.Song) {
         playerManager.pause()

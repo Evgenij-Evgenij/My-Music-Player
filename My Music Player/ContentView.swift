@@ -1,16 +1,17 @@
 //
 //  ContentView.swift
-//  My Music Player
+//  Music Player
 //
-//  Created by Kostiantyn Nevinchanyi on 7/22/22.
+//  Created by Евгений Воронов on 16.07.2022.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            AlbomListView()
+        }
     }
 }
 
